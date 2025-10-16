@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --corBody: #aadfee;
+    --corHeader: #81b1db;
+}
+
+body{
+    background-color: var(--corBody);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+
+
+
+header{
+    width: 100%;
+    background-color: var(--corHeader);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ladoEsquerdoHeader{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 2.5px;
+}
+
+
+main{
+    width: 100%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--corHeader);
+    bottom: 0%;
+    position: absolute;
+}
+
+footer div{
+    margin: 10px;
+    text-align: center;
+    font-size: 8px;
+}
