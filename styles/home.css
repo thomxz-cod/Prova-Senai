@@ -23,7 +23,127 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 #segundaSecao{
-    background-color: rgb(253, 0, 0);
     width: 100%;
+    margin: 10px 0px;
+}
+
+#titulo_secao2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+#sub_secao2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sub_secao2 div{
+    width: 50%;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#terceiraSecao{
+    background-color: rgb(229, 248, 253);
+    display: flex;
+    width: 100%;
+}
+
+#terceiraSecao section{
+    width: 50%;
+}
+#ladoE_secao3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 40px;
+}
+
+.subDiv_secao3{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.subDiv_secao3 div{
+    margin-left: 10px;
+    font-size: 10px;
+    gap: 10px;
+}
+
+#ladoD_secao3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 20px 20px 40px;
+}
+#pesquisa{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    background-color: #d3d3d3;
+    font-size: 7px;
+    width: 60px;
+}
+
+.algo{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #d3d3d3;
+    margin-top: 10px;
+    font-size: 7px;
+}
+
+#quartaSecao{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#sub_secao4{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+}
+#sub_secao4 div{
+    font-size: 8px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+#slaDireito_secao4{
+    gap: 10px;
+    display: flex;
+    height: 100px;
 }
