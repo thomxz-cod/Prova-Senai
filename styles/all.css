@@ -48,6 +48,8 @@ footer{
     align-items: center;
     width: 100%;
     background-color: var(--corHeader);
+    bottom: 0%;
+    position: absolute;
 }
 
 footer div{
