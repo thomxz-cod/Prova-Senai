@@ -1,7 +1,22 @@
-#primeiro_titulo{
+.titulo{
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 5px 0px;
+    background-color: rgb(229, 248, 253);
 }
 
+#missao, #natureza, #ajuda{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#missao div, #natureza div, #ajuda div{
+    width: 50%;
+}
+
+#galeria{
+    width: 100%;
+    background-color: rgb(229, 248, 253);
+}
