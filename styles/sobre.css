@@ -20,3 +20,8 @@
     width: 100%;
     background-color: rgb(229, 248, 253);
 }
+
+#img_galeria{
+    justify-content: center;
+    display: flex;
+}
